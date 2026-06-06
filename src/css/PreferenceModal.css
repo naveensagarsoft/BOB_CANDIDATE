@@ -1,0 +1,248 @@
+/* === Modal Container === */
+.bob-preference-modal .modal-dialog {
+  max-width: 960px !important;
+  margin-top: 40px;
+}
+
+.bob-preference-modal .modal-content {
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 0;
+}
+
+/* === HEADER === */
+.bob-pref-header {
+  background: #fff8f3;
+  border: 1px solid #ffd8b2;
+  border-radius: 8px;
+  margin: 1.5rem;
+  position: relative;
+  width: 730px;
+}
+.bob-pref-header-new {
+  background: #fff4ee;
+  border: 1px solid #ffd3bf;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 20px 35px 10px;
+}
+
+.bob-pref-advt {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f26522;
+  margin-bottom: 4px;
+}
+
+.bob-pref-position {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a2c71;
+}
+.bob-pref-header-top span:first-child {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.bob-pref-header-title span:first-child {
+  color: #666;
+  margin-right: 0.5rem;
+  font-weight: 500;
+}
+
+/* Close button fix */
+.btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  background-size: 0.7rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0.25rem;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+/* === BODY === */
+.bob-pref-body {
+  background: #fff;
+  padding: 5px  35px 25px !important;
+}
+
+.bob-pref-title {
+  color: #1a2c71;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* === FORM === */
+
+.bob-preference-modal .form-label {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #404040;
+	margin-bottom: 5px;
+  text-wrap: nowrap;
+}
+.bob-preference-modal .form-control {
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 0.875rem !important;
+  height: 36px;
+  padding: 5px 10px;
+  color: #404040;
+  box-shadow: none !important;
+  background-color: #fff;
+}
+
+.bob-preference-modal .form-control:focus {
+  border-color: #1a2c71;
+  box-shadow: 0 0 0 0.25rem rgba(26, 44, 113, 0.1);
+}
+
+/* Dropdown Arrow */
+
+/* === FOOTER === */
+.bob-preference-modal .bob-pref-footer {
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+  padding: 18px 35px;
+}
+
+.bob-preference-modal .footer-btn-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+/* === BUTTONS === */
+.bob-preference-modal .btn-outline-secondary {
+  border: 1px solid #c7c7c7 !important;
+  color: #404040 !important;
+  background: #fff !important;
+  border-radius: 6px;
+  font-weight: 300;
+  padding: 8px 28px;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+}
+
+.bob-preference-modal .btn-outline-secondary:hover {
+  background: #f5f5f5 !important;
+  border-color: #aaa !important;
+}
+
+.bob-preference-modal .btn-bob-orange {
+  background: #f26522;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 400;
+  padding: 9px 32px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+/* ✅ KEEP TEXT WHITE ON HOVER */
+.bob-preference-modal .btn-bob-orange:hover,
+.bob-preference-modal .btn-bob-orange:focus,
+.bob-preference-modal .btn-bob-orange:active {
+  background: #f26522;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+.bob-preference-modal .btn-bob-orange:hover {
+  background: #f26522;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 991px) {
+  .bob-pref-body {
+    padding: 15px 20px;
+  }
+
+  .footer-btn-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-bob-orange,
+  .btn-outline-secondary {
+    width: 100%;
+  }
+}
+
+/* === FONT === */
+body,
+.bob-pref-body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Add this to your PreferenceModal.css */
+select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  padding-right: 2.5rem;
+}
+
+/* For Firefox */
+@-moz-document url-prefix() {
+  select.form-control {
+    padding-right: 1.75rem;
+  }
+}
+
+/* For IE10+ */
+select.form-control::-ms-expand {
+  display: none;
+}
+
+/* Update the footer button alignment */
+.bob-pref-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 35px;
+  border-top: 1px solid #e6e6e6;
+}
+
+/* Remove any existing margin or padding that might be affecting alignment */
+.footer-btn-group {
+  margin-right: auto !important;
+}
+
+/* Ensure the preview button stays on the right */
+.bob-pref-footer> :not(.footer-btn-group) {
+  margin-left: auto !important;
+}
+/* =========================================================
+   INFO TEXT BELOW FORM (ORANGE NOTE)
+========================================================= */
+.bob-pref-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #f26522; /* Bank orange */
+}
+
+.info-bulb-icon{
+  color: #f37021;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}

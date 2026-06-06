@@ -1,0 +1,44 @@
+.existing-resume {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    width: 42%;
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  .existing-resume .btn-link {
+    color: #162b75;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    
+  }
+  .filename{
+    font-size: 0.875rem;
+  }
+  .existing-resume .btn-link:hover {
+    text-decoration: underline;
+    color: #162b75;
+  }
+  .form-content-section h2{
+    font-size:16px !important;
+  }
+  .form-content-section  p.subtext{
+    font-size: 0.875rem !important;
+  }
+  .existing-resume p{
+    margin-bottom: 10px;
+  }
+
+  .uploaded-file-box {
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .uploaded-file-box > div:first-child > div:last-child > div:first-child {
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }

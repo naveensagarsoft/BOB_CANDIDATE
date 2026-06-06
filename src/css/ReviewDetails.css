@@ -1,0 +1,73 @@
+.nationality{
+    margin-top: -25px;
+
+}
+.formfields label{
+    font-size: 12px;
+  color: #6e6e6e;
+  font-weight:500;
+}
+.formfields input, .formfields textarea, .formfields select{
+    font-size: 14px;
+  color: #6e6e6e;
+}
+.adddoc h5{
+    font-size: 16px;
+    color: #162b75;;
+    margin-bottom: 15px;
+    font-weight:600;
+}
+.adddoc table th{
+    background-color: #fff;
+    font-size: 13px;
+    color: rgb(255, 112, 67);
+    
+}
+.adddoc td{
+    font-size: 14px;
+}
+.iconhover{
+   color: rgb(255, 112, 67) !important;
+}
+.iconhover:hover{
+   color: rgb(255, 112, 67) !important;
+   background:none !important;
+}
+
+.adddoc .btn{
+   padding: 0 5px !important;
+}
+.dangbtn{
+    border: none !important;
+    padding: 0 !important;
+}
+.printn{
+    border: none !important;
+    padding: 0 !important;
+}
+.md-title{
+    color: #162b75 !important;
+    font-size: 16px;
+}
+.mddialog .modal-header, .mddialog .modal-footer, .mddialog .modal-content{
+  border: none;
+}
+.mdbody p{
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+}
+.modal-footer button{
+   background-color: rgb(255, 112, 67);
+  border-color: rgb(255, 112, 67);
+  color:#fff;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.modal-footer button:hover{
+ background-color: rgb(255, 112, 67);
+  border-color: rgb(255, 112, 67);
+  color:#fff;
+}
+.erordob{
+    font-size: 13px;
+}

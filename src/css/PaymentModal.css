@@ -1,0 +1,61 @@
+.payment-modal .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.payment-modal .modal-title {
+  font-weight: 600;
+  color: #162b75;
+}
+
+.payment-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* Summary Card */
+.payment-summary-card {
+  background: #f9fafc;
+  border: 1px solid #e5e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.summary-divider {
+  border-top: 1px dashed #ccc;
+  margin: 12px 0;
+}
+
+.total-row {
+  font-size: 1rem;
+}
+
+.amount {
+  color: #f26522;
+  font-weight: 600;
+}
+
+/* Footer */
+.payment-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Security Note */
+.payment-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 10px;
+}

@@ -1,0 +1,110 @@
+.stepper-container {
+  display: flex;
+  align-items: flex-start; /* Align to top so labels don't shift the circles */
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 10rem;
+  background-color: #fff;
+}
+
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  min-width: 80px; /* Ensures label doesn't squash */
+}
+
+.step_circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 3px solid #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: white;
+  color: #999;
+  transition: all 0.3s ease;
+}
+
+.step-label {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #999;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* THE LINE: Positioned between circles */
+.step-line {
+  flex-grow: 1;
+  height: 1.5px;
+  background: #e0e0e0;
+  margin: 16px 0px 0 0px; /* 16px aligns it to the middle of the 32px circle */
+  transition: all 0.3s ease;
+}
+
+/* Active State */
+.step-item.active .step_circle {
+  border-color: #42579f;
+  background: #42579f;
+  color: white;
+  opacity: 1 !important;
+}
+
+.step-item.active .step-label {
+  color: #42579f;
+  font-weight: 600;
+  opacity: 1 !important;
+}
+
+/* Completed State */
+.step-item.completed .step_circle {
+  border-color: #1E9D4D;
+  background: #1E9D4D;
+  color: white;
+  opacity: 0.5;
+}
+
+.step-item.completed .step-label {
+  color: #1E9D4D;
+  opacity: 0.5;
+}
+
+/* Active takes precedence over Completed */
+.step-item.active.completed .step_circle {
+  border-color: #42579f !important;
+  background: #42579f !important;
+  opacity: 1 !important;
+}
+
+.step-item.active.completed .step-label {
+  color: #42579f !important;
+  opacity: 1 !important;
+}
+
+/* Blue line for completed steps */
+.step-line.completed {
+  background: #1E9D4D;
+  opacity: 0.5;
+}
+
+.step-check-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.step-item.revisited .step_circle {
+  border-color: #42579f;   /* orange */
+  background: #42579f;
+  color: white;
+}
+
+.step-item.revisited .step-label {
+  color: #42579f;
+  font-weight: 600;
+}

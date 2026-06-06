@@ -1,0 +1,115 @@
+.comments-label{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #364153;
+}
+.offer-modal .btn-danger {
+  background-color: #EC4E52;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.offer-modal .modal-title{
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.comments-label  .textarea.form-control{
+  font-weight: 400;
+  color: #364153;
+  font-size:0.75rem;
+}
+
+.offer-modal .btn-danger:hover {
+  background-color: #EC4E52;
+  border-color: #EC4E52;
+}
+
+.offer-modal .btn-success{
+  background-color: #22C55E;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.offer-modal .btn-success:hover {
+  background-color: #22C55E;
+  border-color: #22C55E;
+}
+.offer-modal .form-control {
+  font-size: 0.8125rem !important;
+  font-weight: 400 !important;
+  color: #364153 !important;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  height: 40px;
+  min-height: 40px;
+}
+.offer-modal .form-select {
+  font-size: 0.8125rem !important;
+  font-weight: 400 !important;
+  color: #364153 !important;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  height: 40px;
+  min-height: 40px;
+}
+
+.offer-modal textarea.form-control {
+  min-height: 80px;
+  height: 100%;
+  resize: vertical;
+}
+
+.offer-modal .form-label {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: #364153;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.offer-modal .modal-footer {
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid #E5E7EB;
+}
+
+.offer-modal .row {
+  width: 100%;
+  margin: 0 -0.5rem;
+}
+
+.offer-modal .col-md-6 {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-modal .form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.offer-modal .btn {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.offer-modal .h-100 {
+  height: 100% !important;
+}
+
+.offer-modal .form-control:focus,
+.offer-modal .form-select:focus {
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}

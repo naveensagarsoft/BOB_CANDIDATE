@@ -1,0 +1,37 @@
+.fs14{
+    font-size: 24px;
+    color: #162b75;
+    font-weight: 500 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.icons{
+    width:100%;
+}
+.icons img{
+    height: 80px !important;
+  width: auto !important;
+} 
+.card-body .h5{
+    color:#162b75 !important;
+    font-size:16px;
+}
+.card-body p{
+    color: #333 !important;
+  font-weight: 600 !important;
+    font-size: 14px;
+}
+.cardshadow{
+    box-shadow: rgba(0, 123, 255, 0.15) 0px 8px 20px !important;
+  border-radius: 12px;
+  border: none !important;
+}
+
+/* ------------ HOME -----------------  */
+
+.register-here-btn {
+    background-color: #fff;
+    color: orangered;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
